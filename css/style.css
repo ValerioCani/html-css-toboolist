@@ -100,59 +100,59 @@ dd + dt{
 .editorial:after{
     content: "editorial";
     color: #fff;
-    font-size: 10px;
+    font-size: 7px;
     background-color: #47adf1;
     padding: 2px 5px;
     border-radius: 7px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .q1:after{
     content: "Q1 Goals";
     color: #fff;
-    font-size: 10px;
+    font-size: 7px;
     background-color: #9c72e4;
     padding: 2px 5px;
     border-radius: 7px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .recruiting:after{
     content: "Recruiting";
     color: #fff;
-    font-size: 10px;
+    font-size: 7px;
     background-color: #64c0a9;
     padding: 2px 5px;
     border-radius: 7px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .mobile:after{
     content: "Mobile";
     color: #fff;
-    font-size: 10px;
+    font-size: 7px;
     background-color: #f29e33;
     padding: 2px 5px;
     border-radius: 7px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .website:after{
     content: "Website";
     color: #fff;
-    font-size: 10px;
+    font-size: 7px;
     background-color: #d863a1;
     padding: 2px 5px;
     border-radius: 7px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .sales:after{
     content: "Sales";
     color: #fff;
-    font-size: 10px;
+    font-size: 7px;
     background-color: #b0c926;
     padding: 2px 5px;
     border-radius: 7px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
