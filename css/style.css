@@ -53,7 +53,7 @@ main{
 .liste{
     border-radius: 0px 0px 5px 5px;
 }
-
+/* titoli liste */
 dt:before{
    content: '\25BC';
 }
@@ -61,7 +61,21 @@ dt:before{
 dt{
     font-weight: 900;
 }
+/* elementi liste */
 
+dd{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+dd + dt{
+    margin-top:20px;
+}
+
+/* check e cross */
 .check:before{
     content: '\2714';
     font-size: 10px;
@@ -82,16 +96,63 @@ dt{
     margin-bottom: 5px;
 }
 
-
-
-dd{
-    margin-left: 40px;
-    margin-bottom: 10px;
-    font-size: small;
-    font-weight: 700;
-    
+/* tag colorati */
+.editorial:after{
+    content: "editorial";
+    color: #fff;
+    font-size: 10px;
+    background-color: #47adf1;
+    padding: 2px 5px;
+    border-radius: 7px;
+    margin-left: 10px;
 }
 
-dd + dt{
-    margin-top:20px;
+.q1:after{
+    content: "Q1 Goals";
+    color: #fff;
+    font-size: 10px;
+    background-color: #9c72e4;
+    padding: 2px 5px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.recruiting:after{
+    content: "Recruiting";
+    color: #fff;
+    font-size: 10px;
+    background-color: #64c0a9;
+    padding: 2px 5px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.mobile:after{
+    content: "Mobile";
+    color: #fff;
+    font-size: 10px;
+    background-color: #f29e33;
+    padding: 2px 5px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.website:after{
+    content: "Website";
+    color: #fff;
+    font-size: 10px;
+    background-color: #d863a1;
+    padding: 2px 5px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.sales:after{
+    content: "Sales";
+    color: #fff;
+    font-size: 10px;
+    background-color: #b0c926;
+    padding: 2px 5px;
+    border-radius: 7px;
+    margin-left: 10px;
 }
