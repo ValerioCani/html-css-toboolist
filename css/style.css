@@ -7,7 +7,41 @@
 
 header{
     background-color: #fff;
-    height: 60px;
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900;
+}
+
+#logo{
+    margin: 10px 0px 10px 15px;
+    vertical-align: middle; 
+    /* La riga sopra agisce sul testo affiancato ed evita di dover ripetere il comando di stile al testo successivo */
+}
+
+main{
+    background-color:#b1bbf8;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.bottoni{
+    padding: 15px 0px 10px 40px;
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.bottone1{
+    color: #fff;
+    background-color: #47adf1;
+    padding: 6px 10px;
+    border: #47adf1 solid 2px;
+    border-radius: 7px;
+}
+.bottone2{
+    color: #d8dce0;
+    background-color: #fff;
+    padding: 6px 10px;
+    border: #d8dce0 solid 2px;
+    border-radius: 7px;
 }
