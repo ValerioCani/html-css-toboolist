@@ -23,12 +23,16 @@ main{
     padding-bottom: 10px;
 }
 
-.bottoni{
+.bottoni, .liste{
     padding: 15px 0px 10px 40px;
     background-color: #fff;
     width: 70%;
     margin: auto;
+}
+
+.bottoni{
     border-radius: 5px 5px 0px 0px ;
+    margin-bottom: 3px;
 }
 
 .bottone1{
@@ -44,4 +48,50 @@ main{
     padding: 6px 10px;
     border: #d8dce0 solid 2px;
     border-radius: 7px;
+}
+
+.liste{
+    border-radius: 0px 0px 5px 5px;
+}
+
+dt:before{
+   content: '\25BC';
+}
+
+dt{
+    font-weight: 900;
+}
+
+.check:before{
+    content: '\2714';
+    font-size: 10px;
+    color:#64c0a9;
+    border: #64c0a9 solid 1px; 
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.cross:before{
+    content: '\2718';
+    font-size: 10px;
+    color:#ea453b;
+    border: #ea453b solid 1px; 
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+dd{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: small;
+    font-weight: 700;
+    
+}
+
+dd + dt{
+    margin-top:20px;
 }
